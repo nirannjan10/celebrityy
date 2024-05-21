@@ -1,0 +1,114 @@
+.main {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin-left:472px;
+  padding: 10px;
+}
+
+.closed {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+}
+
+.closed img {
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  margin-right: 10px; /* Add some spacing between the image and the name */
+}
+
+.closed .name {
+  margin: 0; /* Remove default margins */
+  width: 200px; /* Fixed width for the name */
+}
+
+.closed .plus {
+  margin-left: auto; /* Pushes the plus icon to the right */
+}
+
+
+  
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plus {
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.age,
+.gender,
+.country,
+.description {
+  margin-top: 5px;
+}
+
+.edit,
+.delete {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.age,
+.gender,
+.country,
+.description {
+  margin-bottom: 5px;
+}
+
+.age p,
+.gender p,
+.country p,
+.description p {
+  margin: 0;
+}
+
+.age span,
+.gender span,
+.country span,
+.description span {
+  font-weight: bold; /* Example style for the dynamic values */
+}
+
+.draw-delete-line {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.delete {
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+
+.draw {
+  width: 30px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  margin-left: 10px;
+}
